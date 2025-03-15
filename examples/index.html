@@ -49,8 +49,7 @@
             </div>
             <details style="margin-top: 1rem;">
                 <summary>コードを表示</summary>
-                <pre><code class="language-javascript"><!--
-
+                <pre><code class="language-javascript">
 let scribble = new Scribble();
 
 function setup() {
@@ -89,7 +88,7 @@ function setup() {
   const angle = 315;
 
   // draw every value as a filled rect in a bar graph
-  for (let i = 0; i < values.length; i++) {
+  for (let i = 0; i &lt; values.length; i++) {
     // calculate the x and y coordinates of the center of the rect and the height
     h = halfHeight * 0.01 * values[i];
     x = (spacer + width) * (i + 1) - width / 2;
@@ -131,9 +130,11 @@ function setup() {
     scribble.scribbleFilling(xCoords, yCoords, gap, angle);
   }
 }
---></code></pre>
+</code></pre>
             </details>
         </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5.scribble.js@latest/p5.scribble.js"></script>
     <script>
