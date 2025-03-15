@@ -1,0 +1,11 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^6.2.2"
+  }
+}
