@@ -8,13 +8,21 @@ jobs:
       pages: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git checkout --orphan gh-pages
-          rm -rf *
-          cp -r examples/* .
-          cp p5.scribble.js .
+          git rm -rf .
+          # 新しい作業ディレクトリを作成
+          mkdir temp
+          cp -r examples/* temp/
+          cp p5.scribble.js temp/
+          # 一時ディレクトリの内容をルートに移動
+          mv temp/* .
+          rm -rf temp
+          # ステージングとコミット
           git add .
           git commit -m "Deploy to GitHub Pages"
           git push -f origin gh-pages
