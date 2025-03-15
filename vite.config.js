@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import { resolve } from "node:path";
 
 export default defineConfig({
-  base: "/",
+  base: "/p5.scribble.js/",
   build: {
     outDir: "dist",
     emptyOutDir: true,
