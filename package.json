@@ -1,5 +1,5 @@
 {
-  "name": "p5.scribble",
+  "name": "@u1-mas/p5.scribble.js",
   "version": "0.0.1",
   "description": "Draw 2D primitives in a sketchy look in http://p5js.org/. Forked from generative-light/p5.scribble.js with improvements.",
   "main": "p5.scribble.js",
