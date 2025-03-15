@@ -13,9 +13,9 @@ With p5.scribble.js you can draw
 
 in a sketchy look
 
-## Acknowledgments
+## Important Note
 
-This library is based on [generative-light/p5.scribble.js](https://github.com/generative-light/p5.scribble.js).
+This repository is a fork of [generative-light/p5.scribble.js](https://github.com/generative-light/p5.scribble.js) and is maintained by u1-mas.
 
 The original concept and implementation is based on the "handy" library for Processing developed at giCentre, City University London.
 You can find the original handy library here: https://github.com/gicentre/handy
