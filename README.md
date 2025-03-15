@@ -1,7 +1,7 @@
 # p5.scribble.js
 Draw 2D primitives in a sketchy look in http://p5js.org/.
 
-![Example image](https://github.com/generative-light/scripple-p5.js/blob/master/scribble-p5.js.png)
+![Example image](scribble-p5.js.png)
 
 With p5.scribble.js you can draw
 - lines
@@ -13,16 +13,17 @@ With p5.scribble.js you can draw
 
 in a sketchy look
 
-# Credits
-This is a port of the handy library for processing to p5.js,
-so much of the source code is taken from the handy library for processing,
-written by Jo Wood, giCentre, City University London based on an idea by Nikolaus Gradwohl.
-https://github.com/gicentre/handy
+## Acknowledgments
+
+This library is based on [generative-light/p5.scribble.js](https://github.com/generative-light/p5.scribble.js).
+
+The original concept and implementation is based on the "handy" library for Processing developed at giCentre, City University London.
+You can find the original handy library here: https://github.com/gicentre/handy
 
 # Examples
 In the examples directory you can find examples to see p5.scribble.js in action:
 - chart (bar graph) example
-![Example image 2](https://github.com/generative-light/scripple-p5.js/blob/master/bargraph.png)
+![Example image 2](bargraph.png)
 
 ## use headless with phantomJS
 If you are interested in using this lib headless, have a look in the example/phantomjs folder    
@@ -31,7 +32,7 @@ You will find there a skeleton p5 project for using p5 with phantomJS and the ba
 - Then call "phantomjs render.js" from your command line    
 - A screen.png will appear in your folder with the captured image of the sketch
     
-If you create some nice stuff with p5.scribble,js, which could fit in the example directory, let me know or send a PR.
+If you create some nice stuff with p5.scribble.js, which could fit in the example directory, let me know or send a PR.
 
 # How to use
 ## Include the file

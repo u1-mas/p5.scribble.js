@@ -1,27 +1,39 @@
 {
-	"name": "p5.scribble",
-	"version": "0.0.0",
-	"description": "Draw 2D primitives in a sketchy look in http://p5js.org/.",
-	"main": "p5.scribble.js",
-	"directories": {
-		"example": "examples"
-	},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"check": "biome check . --fix"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/u1-mas/p5.scribble.js.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/u1-mas/p5.scribble.js/issues"
-	},
-	"homepage": "https://github.com/u1-mas/p5.scribble.js#readme",
-	"devDependencies": {
-		"@biomejs/biome": "^1.9.4"
-	}
+  "name": "p5.scribble",
+  "version": "0.0.1",
+  "description": "Draw 2D primitives in a sketchy look in http://p5js.org/. Forked from generative-light/p5.scribble.js with improvements.",
+  "main": "p5.scribble.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "biome check . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u1-mas/p5.scribble.js.git"
+  },
+  "keywords": [
+    "p5.js",
+    "sketch",
+    "drawing",
+    "creative-coding",
+    "visualization",
+    "graphics",
+    "sketchy",
+    "hand-drawn"
+  ],
+  "author": {
+    "name": "u1-mas",
+    "url": "https://github.com/u1-mas"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u1-mas/p5.scribble.js/issues"
+  },
+  "homepage": "https://github.com/u1-mas/p5.scribble.js#readme",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
 }
