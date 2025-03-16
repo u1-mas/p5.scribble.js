@@ -6,7 +6,12 @@ export default defineConfig({
   build: {
     outDir: "dist",
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'examples/index.html'),
+        chart: resolve(__dirname, 'examples/chart.html'),
+      }
+    }
   },
-  root: "examples",
-  publicDir: "../public",
+  publicDir: "public",
 });
