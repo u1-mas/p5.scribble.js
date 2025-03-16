@@ -1,4 +1,5 @@
 node_modules/
 memory-bank/
 .clinerules
-node_modules
+dist/
+public/
